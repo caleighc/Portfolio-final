@@ -1,144 +1,449 @@
-
-body{
-  font-family: Courier;
-  margin: 10px;
-  padding: 10px;
+footer {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #F9F6F0;
+    color: #3B3C42;
+    text-decoration: none;
+    margin: 10px;
 }
 
-h1{
-  font-size: 32px;
-  color: darkslategray;
-  font-weight: bold;
-  text-align: center;
+.footer a {
+    text-decoration: none;
+    color: #3B3C42;
 }
 
-p{
-  font-size: 14px;
-  padding: 10px 0;
-  line-height: 1.5;
+body {
+    font-family: questrial, sans-serif;
+    color: #3B3C42;
+    background-color: #F9F6F0;
+    width: 100vw;
+    height: 100%;
+    left: 0;
+    right: 0;
 }
 
-a{
-  color: darkolivegreen;
-  text-decoration: none;
+h2 {
+    font-size: large;
+    font-weight: bold;
 }
 
-a:hover{
-  color: white;
-  background-color: #aaddff;
+.logo {
+    cursor: pointer;
+    width: 20px;
+    margin-top: 10px;
+    height: 20px;
+    display: inline-block;
+    padding: 0px 20px;
+    border: none !important;
 }
 
-img{
-  width: 200px;
-  height: auto;
-  margin: 10px;
-  border: 5px solid darkslategray;
-  ;
-  opacity: 1;
-  transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
+li,
+a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #3B3C42;
+    text-decoration: none;
 }
 
-ul{
-  color: black;
-  padding: 10px;
+header {
+    color: #3B3C42;
+    opacity: 0.9;
+    height: 20%;
 }
 
-ol{
-  color: black;
-  padding: 10px;
-  list-style-type: decimal;
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-li {
-  display: list-item;
-  list-style-position: inside;
+.nav li {
+    display: inline-block;
+    padding: 0px 20px;
+    align-items: center;
 }
 
-.footer{
-  background-color:black;
-  color: white;
+.nav li a {
+    transition: all 0.3s ease 0s;
 }
 
-.life h1 {
-  text-shadow: 2px 4px darkslategray;
-  color: darkolivegreen
+.nav li a:hover {
+    background-color: #A9C9D1;
+    color: #3B3C42;
 }
 
-.hover img:hover{
-  opacity: 0.5;
-  transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
+.title {
+    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    color: #3B3C42;
+    font-size: 200%;
+    letter-spacing: 1px;
+    text-align: center;
+    background-image: url('../images/bighouse.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.life h1 {
-    color: darkolivegreen
-  }
-  
-  img:hover{
-    opacity: 0.5;
-    transition: 1s ease;
-    -webkit-transition: 1s ease;
-    -moz-transition: 1s ease;
-    -ms-transition: 1s ease;
-    -o-transition: 1s ease;
-  }
-  
-  
-  .groceries{
+.title h1:hover {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h5 {
+    text-align: right !important;
+    margin-right: 10px;
+}
+
+.intro {
+    color: #3B3C42;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #3B3C42;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: #A9C9D1;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    opacity: 1;
+}
+
+.intro-div {
+    height: 400px;
+    background-color: #A9C9D1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+    column-gap: 10px;
+}
+
+
+/* WELLNESS */
+
+.meditation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title-wellness {
+    height: 400px;
+    width: 100%;
+    color: #3B3C42;
+    font-size: 200%;
+    letter-spacing: 1px;
+    background-image: url('../images/plant.jpg');
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.title-wellness h1 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.mental-health {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.meditation h2 {
+    text-align: center;
+    color: #444;
+    font-size: large;
+}
+
+.meditation-photos {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-  }
-  
-  .eating{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    justify-items: center;
+    align-items: center;
+    object-fit: cover;
+    column-gap: 20px;
+}
+
+.meditation-p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 20px;
+    justify-items: center;
+}
+
+img:hover {
+    transition: 0.5s ease-in-out;
+    filter: grayscale(1);
+}
+
+.meditation-photos img {
+    width: 100%;
+    height: 180px;
+}
+
+.meditation-photos p {
+    text-align: left;
+}
+
+.hiking-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+}
+
+.hiking {
+    background-color: #A9C9D1;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hiking p {
+    margin: 10px;
+}
+
+.sports {
+    background-color: #C4A378;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.friends {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.friends-img {
+    display: grid;
+    margin: 10px;
+    column-gap: 20px;
+    justify-items: center;
+}
+
+.friends p {
+    margin: 10px;
+}
+
+
+/* FOOD */
+
+.title-food {
+    height: 400px;
+    width: 100%;
+    color: #444;
+    font-size: 200%;
+    letter-spacing: 1px;
+    background-image: url('../images/grocerybag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-food h1 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.eating {
+    width: 100%;
+    height: 500px;
+    background-color: #A9C9D1;
+}
+
+.eating-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 20px;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+
+.grocery-list {
+    width: 100%;
+    padding-top: 20px;
+    background-color: #A9C9D1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-image: url("../images/traderjoes.jpg");
+    height: 400px;
+}
+
+#checkboxes ul {
+    margin: 0;
+    list-style: none;
+}
+
+.exploring p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    background-color: #A9C9D1;
+    padding: 20px;
+}
+
+.groceries p {
+    padding: 20px;
+}
+
+.cooking-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    column-gap: 20px;
+    justify-items: center;
+}
+
+.groceries h2 {
+    text-align: center;
+}
+
+.grocery-pics {
+    width: 100%;
+    height: auto;
+}
+
+.grocery-pics img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* EDUCATION */
+
+.title-education {
+    height: 400px;
+    width: 100%;
+    color: #444;
+    font-size: 200%;
+    letter-spacing: 1px;
+    background-image: url("../images/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.highlight {
+    background-color: #A9C9D1;
+    color: #3B3C42;
+}
+
+.title-education h1 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.school {
+    display: block;
+    padding: 20px;
+}
+
+.planner {
+    display: block;
+    padding: 20px;
+}
+
+.planner-img img {
+    width: 100% !important;
+    height: 200px;
+    object-fit: cover;
+}
+
+.planner-img {
+    margin-bottom: 10px;
+}
+
+.self-photo {
+    width: 100%;
+}
+
+.classes {
+    width: 100%;
+    background-color: #C4A378;
+    height: 350px;
+}
+
+.classes h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.michigan-classes {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-  }
-  
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  form {
-    border: 3px solid #f1f1f1;
-  }
-  
-  legend{ 
-    font-size: 125%;
-    font-style:bold;
+    align-items: center;
+}
+
+.classes img {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+/* Form */
+
+form {
+    /* border: 3px solid #f1f1f1; */
+    margin: 5%;
+}
+
+legend {
+    font-size: 100%;
+    font-style: bold;
     text-transform: none;
     text-align: center;
-  }
-  
-  label{
+}
+
+label {
     display: inline-block;
-    margin-right:10px;
-    width:15%;
-  }
-  input {
+    margin-right: 10px;
     width: 100%;
+}
+
+input {
+    width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  }
-  span{
-    margin-left:20%;
+}
+
+span {
+    margin-left: 20%;
     font-family: italic;
     font-weight: bold;
-  }
-  
-  textarea{
+}
+
+textarea {
     width: 100%;
     height: 10vh;
     padding: 12px 20px;
@@ -146,25 +451,253 @@ li {
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
-  }
-  
-  
-  input[type=checkbox]{
-      display:inline;
-      width:inherit;
-  }
-  
-  input[type=submit] {
-    background-color: #6495ED;
+}
+
+input[type=submit] {
+    background-color: #3B3C42;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.8;
-  }
+    width: 20%;
+    border-radius: 50px;
+}
 
+.cooking {
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #C4A378;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.eating-pics {
+    height: auto;
+    width: auto;
+}
+
+a.skip {
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+
+.sports h2 {
+    padding: 20px;
+}
+
+.sports {
+    height: auto;
+}
+
+.sports p {
+    width: auto;
+}
+
+a.skip:focus {
+    top: 20px;
+    color: black;
+    text-decoration-style: solid;
+}
+
+@media only screen and (max-device-width: 480px) {
+    body {
+        width: 100%;
+    }
+    .title-education {
+        height: 200px;
+    }
+    .title-food {
+        height: 200px;
+    }
+    .title-wellness {
+        height: 200px;
+    }
+    .title {
+        height: 200px;
+        color: white;
+        font-weight: bold;
+    }
+    input[type=submit] {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    .nav ul {
+        width: 100vw;
+        text-size-adjust: auto;
+        overflow: auto;
+    }
+    .nav {
+        width: 100%;
+        list-style: none;
+        display: grid;
+        grid-template-rows: min-content;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .classes {
+        height: auto;
+    }
+    .classes img {
+        padding-bottom: 10px;
+    }
+    .title h1 {
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+    }
+    .intro-div {
+        height: auto;
+        width: auto;
+        background-color: #A9C9D1;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 5%;
+        column-gap: 10px;
+    }
+    .michigan-classes {
+        height: auto;
+        width: auto;
+    }
+    .grocery-list {
+        height: auto;
+        width: auto;
+    }
+    .cooking {
+        width: auto;
+        height: auto;
+        text-align: center;
+        background-color: #C4A378;
+    }
+    .friends-img {
+        display: grid;
+        grid-template-rows: 3(1fr);
+    }
+    .cooking-pics-parent {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+        column-gap: 20px;
+        row-gap: 20px;
+        align-items: center;
+        justify-items: center;
+        width: auto;
+        resize: both;
+    }
+    .self-photo {
+        margin: 20px;
+    }
+    .example {
+        display: none;
+    }
+    .hiking {
+        height: auto;
+        width: auto;
+        background-color: #A9C9D1;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        padding: 5%;
+        column-gap: 10px;
+    }
+    .hiking-content img {
+        justify-self: center;
+    }
+}
+
+.intro-div {
+    animation: color 5s ease;
+    -webkit-animation: color 5s ease;
+}
+
+.classes {
+    animation: color2 5s ease;
+}
+
+.intro {
+    animation: fade 5s ease;
+    -webkit-animation: fade 5s ease;
+}
+
+.wesbite-intro {
+    animation: fade 5s ease;
+    -webkit-animation: fade 10s ease;
+}
+
+.cooking-pics-parent {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes color {
+    from {
+        background-color: #A9C9D1;
+    }
+    to {
+        background-color: #C4A378;
+    }
+}
+
+@keyframes color2 {
+    from {
+        background-color: #C4A378;
+    }
+    to {
+        background-color: #A9C9D1;
+    }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+    .intro-div {
+        animation: none;
+        ;
+    }
+    .classes {
+        animation: none;
+    }
+    .intro {
+        animation: none;
+        -webkit-animation: none;
+    }
+    .website-intro {
+        animation: none;
+        -webkit-animation: none;
+    }
+}
