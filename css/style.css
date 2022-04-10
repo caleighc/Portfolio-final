@@ -1,0 +1,170 @@
+
+body{
+  font-family: Courier;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1{
+  font-size: 32px;
+  color: darkslategray;
+  font-weight: bold;
+  text-align: center;
+}
+
+p{
+  font-size: 14px;
+  padding: 10px 0;
+  line-height: 1.5;
+}
+
+a{
+  color: darkolivegreen;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+  background-color: #aaddff;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border: 5px solid darkslategray;
+  ;
+  opacity: 1;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+ul{
+  color: black;
+  padding: 10px;
+}
+
+ol{
+  color: black;
+  padding: 10px;
+  list-style-type: decimal;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+.footer{
+  background-color:black;
+  color: white;
+}
+
+.life h1 {
+  text-shadow: 2px 4px darkslategray;
+  color: darkolivegreen
+}
+
+.hover img:hover{
+  opacity: 0.5;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.life h1 {
+    color: darkolivegreen
+  }
+  
+  img:hover{
+    opacity: 0.5;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -ms-transition: 1s ease;
+    -o-transition: 1s ease;
+  }
+  
+  
+  .groceries{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+  }
+  
+  .eating{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  legend{ 
+    font-size: 125%;
+    font-style:bold;
+    text-transform: none;
+    text-align: center;
+  }
+  
+  label{
+    display: inline-block;
+    margin-right:10px;
+    width:15%;
+  }
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  span{
+    margin-left:20%;
+    font-family: italic;
+    font-weight: bold;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 10vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+  input[type=checkbox]{
+      display:inline;
+      width:inherit;
+  }
+  
+  input[type=submit] {
+    background-color: #6495ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/55da730a01.js" crossorigin="anonymous"></script>
+    <title>About Me</title>
+</head>
+
+<body>
+    <a class="skip" href="#main">Skip to Main Content</a>
+    <header>
+        <img class="logo" src="images/favicon.ico" alt="logo" id="logo">
+        <nav>
+            <ul class="nav">
+                <li><a href="mental-health.html">WELLNESS</a></li>
+                <li><a href="food.html">FOOD</a></li>
+                <li><a href="school.html">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <hr>
+        </nav>
+        <div class="title">
+            <h1>My Life at The University of Michigan</h1>
+        </div>
+        <hr>
+    </header>
+
+    <main class="container" id="main">
+        <div class="intro">
+            <p>I am a student at the
+                <a href="https://umich.edu/">University of Michigan</a> I am studying computer science. I am applying to the School of Information where I want to pursue a UX Design major. I am originally from Los Angeles, California. At home I live 5
+                minutes from the beach so I love to surf and swim on the weekends. Coming from California all the way to Michigan has been a big adjustment for me so I am going to share some of my college tips!</p>
+        </div>
+        <div class="intro-div">
+            <div class="self-photo">
+                <img src="images/me.jpg" alt="A photo of me and my friends.">
+            </div>
+            <div class="website-intro">
+                <h2>About Me</h2>
+                <p>It is very important to have a balanced lifestyle in college. School can be very challenging so it is very important to have outlets to release stress. I rely a lot on my friends to keep me sane but I also meditate to destress. It is very
+                    important to have a consistent meal plan. Last, it is crucial to have well thought out schedule to get all your schoolwork done.</p>
+            </div>
+        </div>
+        <br><br>
+        <form action="https://formspree.io/f/xqknlqvd" method="POST" id="contact">
+            <fieldset>
+                <legend>Fill out the form below if you have any questions or comments!</legend><br>
+
+                <label for="name_id">Your Name</label><br>
+                <input type="text" placeholder="Enter Your Name" id="name_id" name="name" required><br>
+
+                <label for="email_id">Your Email</label><br>
+                <input type="email" placeholder="Enter Your Email" id="email_id" name="email" required><br>
+
+                <label for="phone_id">Your Phone Number</label><br>
+                <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                <div class="example">Format: 123-456-7890
+                </div>
+
+
+                <label for="msg">Message</label><br>
+                <textarea placeholder="Enter your message" id="msg" name="mesg" required></textarea><br><br><br><br>
+
+                <input type="submit" value="Contact Me">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer" id="back">
+            <a href="#logo">Back to top </a><i class="fa-solid fa-arrow-up"></i>
+            <p>Caleigh Crossman &copy; 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>
