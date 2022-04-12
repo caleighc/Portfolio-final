@@ -92,11 +92,11 @@ header {
 }
 
 .title h1 {
-    color: white !important;
+    color: black !important;
 }
 
 .title h2 {
-    color: white !important;
+    color: black !important;
 }
 
 .title h1:hover {
