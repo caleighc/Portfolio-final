@@ -5,7 +5,7 @@ var button = document.querySelector('#send')
 button.onclick = async function() {
     console.log("Connect wallet")
     if (window.ethereum) {
-        const Web3 = require("web3")
+        // const Web3 = require("web3")
         let w3 = new Web3(window.ethereum)
         const accs = await w3.eth.getAccounts()
         const act = accs[0]
