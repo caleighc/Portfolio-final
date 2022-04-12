@@ -1,8 +1,5 @@
 // var Web3 = require('web3')
 // var web3 = new Web3('http://localhost:8545')
-var Web3 = require("web3");
-console.log(Web3.version);
-
 
 var button = document.querySelector('#send')
 button.onclick = async function() {
