@@ -5,7 +5,10 @@ footer {
     background-color: #F9F6F0;
     color: #3B3C42;
     text-decoration: none;
-    margin: 10px;
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .footer a {
@@ -373,12 +376,12 @@ img:hover {
 
 .school {
     display: block;
-    padding: 20px;
+    margin: 20px;
 }
 
 .planner {
     display: block;
-    padding: 20px;
+    margin: 20px;
 }
 
 .planner-img img {
@@ -412,6 +415,7 @@ img:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin: 20px;
 }
 
 .classes img {
