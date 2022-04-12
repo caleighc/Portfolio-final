@@ -147,7 +147,41 @@ img {
     column-gap: 10px;
 }
 
+.ukraine img {
+    height: 200px;
+}    
 
+
+#send {
+    background-color: #3B3C42;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 12px;
+}
+
+.ukraine {
+    height: 250px;
+    background-color: #A9C9D1;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+    column-gap: 10px;
+}
+
+.donate {
+    margin: 20px;
+}
+
+.donation-intro {
+    display: grid;
+    grid-template-rows: auto;
+}
 /* WELLNESS */
 
 .meditation {
@@ -453,10 +487,11 @@ form {
 }
 
 legend {
-    font-size: 100%;
     font-style: bold;
     text-transform: none;
     text-align: center;
+    color: #444;
+    font-size: large;
 }
 
 label {
@@ -614,14 +649,14 @@ a.skip:focus {
         font-size: medium;
     }
     .intro-div {
-        height: auto;
+        height: 300px;
         width: auto;
         background-color: #A9C9D1;
         display: flex;
         flex-direction: column;
         justify-items: center;
         align-items: center;
-        padding: 5%;
+        margin: 20px;
         column-gap: 10px;
     }
     .michigan-classes {
