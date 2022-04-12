@@ -386,6 +386,7 @@ img:hover {
 .highlight {
     background-color: #A9C9D1;
     color: #3B3C42;
+    border: 1px solid #3B3C42;
 }
 
 .title-education h1 {
@@ -733,7 +734,6 @@ a.skip:focus {
 @media screen and (prefers-reduced-motion: reduce) {
     .intro-div {
         animation: none;
-        ;
     }
     .classes {
         animation: none;
