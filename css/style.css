@@ -284,6 +284,7 @@ img:hover {
     background-image: url('../images/grocerybag.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: white;
 }
 
 .title-food h1 {
@@ -370,6 +371,7 @@ img:hover {
     background-image: url("../images/paper.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: white;
 }
 
 .highlight {
