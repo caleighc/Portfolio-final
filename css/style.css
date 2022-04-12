@@ -91,6 +91,10 @@ header {
     background-size: cover;
 }
 
+.title h1 {
+    color: white !important;
+}
+
 .title h1:hover {
     font-weight: bold;
     font-size: 40px;
