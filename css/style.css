@@ -421,6 +421,7 @@ img:hover {
 .classes img {
     height: 300px;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 
